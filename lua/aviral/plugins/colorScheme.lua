@@ -1,11 +1,8 @@
 return {
-  "nvim-tree/nvim-tree.lua",
-  version = "*",
+  "folke/tokyonight.nvim",
   lazy = false,
-  dependencies = {
-    "nvim-tree/nvim-web-devicons",
-  },
+  priority = 1000,
   config = function()
-    require("nvim-tree").setup {}
-  end,
+	  vim.cmd[[colorscheme tokyonight]]
+  end
 }

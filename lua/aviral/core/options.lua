@@ -1,5 +1,5 @@
 local options = {
-	termguicolor = true,                                                   -- set term gui color (most terminal support this)
+	termguicolor = true,                     -- set term gui color (most terminal support this)
 }
 
 vim.opt.shortness:append "c"

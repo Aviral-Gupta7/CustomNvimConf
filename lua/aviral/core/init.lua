@@ -1,3 +1,3 @@
-require("aviral.core.keymaps")
 
+require("aviral.core.keymaps")
 
